@@ -1,6 +1,6 @@
 # Démo WebVR
 
-LIEN : (https://penny0507.github.io/WEBVR/)
+LIEN : (https://penny0507.github.io/WEBVR/demoVR.html)
 
 Une démonstration simple de réalité virtuelle sur le web utilisant A-Frame.
 
