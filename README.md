@@ -1,6 +1,7 @@
 # Démo WebVR
 
-LIEN : C:\DONNEES\2024-2025\DNMADE2\WEBVR\WEBVR\demoVR.html
+LIEN : (https://penny0705.github.io/WEBVR/demoVR.html)
+
 Une démonstration simple de réalité virtuelle sur le web utilisant A-Frame.
 
 ## Technologies utilisées
