@@ -6,11 +6,12 @@
 
 <a-scene>
   <a-assets>
-    <a-asset-item id="tree-obj" src="./assets/3Dmodels/exp1_obj_lowpolycat/cat.obj"></a-asset-item>
+    <a-asset-item id="model-obj" src="./assets/3Dmodels/exp1_obj_lowpolycat/cat.obj"></a-asset-item>
 
   </a-assets>
 
-  <a-entity obj-model="obj: #tree-obj;"></a-entity>
+<a-entity obj-model="obj: ./assets/3Dmodels/exp1_obj_lowpolycat/cat.obj" scale="0.001 0.001 0.001" position="0 0 -4.59442"></a-entity>
+  <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="silver"></a-plane>
 </a-scene>
   </body>
 </html>
