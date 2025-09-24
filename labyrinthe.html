@@ -5,7 +5,8 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="texture" src="./assets/images/grass.jpg">
+        <img id="texture" src="./assets/images/server.jpg">
+        <img id="skyTexture" src="./assets/images/sky.jpg">
       </a-assets>
       
       <a-entity position = "0 0 4.750">
@@ -36,7 +37,7 @@
           <a-box src="#texture" position="-1.6645 1.01183 -3.98483" geometry="depth: 0.1; height: 1.97; width: 0.7"></a-box>
           <a-box src="#texture" position="-1.35104 1.01183 -3.59191" geometry="depth: 0.1; height: 1.97; width: 0.93" rotation="0 90 0"></a-box>
       </a-entity>
-      <a-sky></a-sky>
+      <a-sky src="#skyTexture"></a-sky>
 
       <a-camera position="0 1.6 0" look-controls wasd-controls></a-camera>
     </a-scene>
