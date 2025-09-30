@@ -13,6 +13,7 @@
     <a-asset-item id="desk" src="./assets/3Dmodels/lab/metal_desk.glb"></a-asset-item>
     <a-asset-item id="things" src="./assets/3Dmodels/lab/chemistry_glassware.glb"></a-asset-item>
     <a-asset-item id="cabinet" src="./assets/3Dmodels/lab/science_lab_cabinet.glb"></a-asset-item>
+    <a-asset-item id="wires" src="./assets/3Dmodels/lab/wires.glb"></a-asset-item>
 
   
     <img id="wall" src="./assets/images/wall.jpg">
@@ -32,13 +33,15 @@
 <a-entity gltf-model="#things" position="1.7 0 -0.9" scale="0.01 0.01 0.01" rotation="0 -50 0"></a-entity>
 <a-entity gltf-model="#desk" position="1.38252 0.31593 0.93211" scale="0.9 0.9 0.9" rotation="0 -100 0"></a-entity>
 <a-entity gltf-model="#cabinet" position="-1.48857 0 1.10014" scale="0.01 0.01 0.01" rotation="0 112 0"></a-entity>
+<a-entity gltf-model="#wires" position="0.3861 2.19802 -1.19271" scale="0.03 0.03 0.03" rotation="0 152.22571884153763 0"></a-entity>
+<a-entity gltf-model="#wires" position="-0.62474 2.0383 0.61294" scale="0.03 0.03 0.03" rotation="0 -15.6216 0"></a-entity>
 
   <a-plane static-body src='#tiles' position="0 0 0" rotation="-90 0 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="0 2 -2" rotation="0 0 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="0 2 2" rotation="0 180 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="-2 2 0" rotation="0 90 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="2 2 0" rotation="0 -90 0" width="4" height="4" color="silver"></a-plane>
-  <a-plane src='#ceiling' position="0 4 0" rotation="90 0 0" width="4" height="4" color="silver"></a-plane>
+  <a-plane src='#ceiling' position="0 2.8 0" rotation="90 0 0" width="4" height="4" color="silver"></a-plane>
 
   <camera position="0 1.6 0">
     <a-entity cursor="fuse: true; fuseTimeout: 500"
