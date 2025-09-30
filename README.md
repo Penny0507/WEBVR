@@ -8,6 +8,8 @@ LIEN :
 
 [gravité](https://penny0507.github.io/WEBVR/gravite.html)
 
+[lab](https://penny0507.github.io/WEBVR/what_a_mess.html)
+
 Une démonstration simple de réalité virtuelle sur le web utilisant A-Frame.
 
 ## Technologies utilisées
