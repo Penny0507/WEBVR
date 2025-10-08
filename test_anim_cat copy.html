@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.6.0/dist/aframe-extras.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene>
+    <a-assets>
+        <a-asset-item id="cat" src="./assets/aframe_tutorial_2_3Danim/aframe_tutorial_2_3Danim/assets/3Danims/cat/an_animated_cat.glb"></a-asset-item>
+    </a-assets>
+
+    <a-entity gltf-model="#cat" position="-1 0 0" scale="0.07 0.07 0.07" animation-mixer></a-entity>
+
+    <a-plane position="0 0 0" rotation="-90 0 0" width="4" height="4" color="silver"></a-plane>
+    <a-sky></a-sky>
+    </a-scene>
+</body>
