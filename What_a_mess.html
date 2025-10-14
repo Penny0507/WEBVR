@@ -17,7 +17,7 @@
 
   
     <img id="wall" src="./assets/images/wall.jpg">
-    <img id="tiles" src="./assets/images/tiles.jpg">
+    <img id="tiles" src="./assets/images/tiles.jpg"></img>
     <img id="ceiling" src="./assets/images/ceiling.png">
   </a-assets>
 
@@ -36,12 +36,12 @@
 <a-entity gltf-model="#wires" position="0.3861 2.19802 -1.19271" scale="0.03 0.03 0.03" rotation="0 152.22571884153763 0"></a-entity>
 <a-entity gltf-model="#wires" position="-0.62474 2.0383 0.61294" scale="0.03 0.03 0.03" rotation="0 -15.6216 0"></a-entity>
 
-  <a-plane static-body src='#tiles' position="0 0 0" rotation="-90 0 0" width="4" height="4" color="silver"></a-plane>
+  <a-plane material="src:#tiles; repeat: 2 2" rotation="-90 0 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="0 2 -2" rotation="0 0 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="0 2 2" rotation="0 180 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="-2 2 0" rotation="0 90 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="2 2 0" rotation="0 -90 0" width="4" height="4" color="silver"></a-plane>
-  <a-plane src='#ceiling' position="0 2.8 0" rotation="90 0 0" width="4" height="4" color="silver"></a-plane>
+  <a-plane material="src:#ceiling; repeat: 4 4" position="0 2.8 0" rotation="90 0 0" width="4" height="4" color="silver"></a-plane>
 
   <camera position="0 1.6 0">
     <a-entity cursor="fuse: true; fuseTimeout: 500"
