@@ -5,43 +5,53 @@
   </head>
   <body>
 
-<a-scene physics>
+<a-scene>
   <a-assets>
     <a-asset-item id="chair" src="./assets/3Dmodels/lab/aperturevrtwp_-_lab_chair.glb"></a-asset-item>
-    <a-asset-item id="rat" src="./assets/3Dmodels/lab/black_rat__free_download.glb"></a-asset-item>
     <a-asset-item id="pc" src="./assets/3Dmodels/lab/lab_things.glb"></a-asset-item>
     <a-asset-item id="desk" src="./assets/3Dmodels/lab/metal_desk.glb"></a-asset-item>
     <a-asset-item id="things" src="./assets/3Dmodels/lab/chemistry_glassware.glb"></a-asset-item>
     <a-asset-item id="cabinet" src="./assets/3Dmodels/lab/science_lab_cabinet.glb"></a-asset-item>
     <a-asset-item id="wires" src="./assets/3Dmodels/lab/wires.glb"></a-asset-item>
+    <a-asset-item id="toilet" src="./assets/3Dmodels/lab/dirty_toilet.glb"></a-asset-item>
+    <a-asset-item id="pipes" src="./assets/3Dmodels/lab/industrial_pipes.glb"></a-asset-item>
+    <a-asset-item id="screens" src="./assets/3Dmodels/lab/retro_cyberpunk_computer_screens.glb"></a-asset-item>
 
   
-    <img id="wall" src="./assets/images/wall.jpg">
+    <img id="wall" src="./assets/paint_0002_4k_f32LdS/paint_0002_color_4k.jpg">
     <img id="tiles" src="./assets/images/tiles.jpg"></img>
     <img id="ceiling" src="./assets/images/ceiling.png">
   </a-assets>
 
 
-<a-entity gltf-model="#pc" position="-1.2 0 -1.2" scale="0.015 0.015 0.015" rotation="0 220 0"></a-entity>
+<a-entity gltf-model="#pc" position="-1.54633 0 -1.65095" scale="0.01 0.01 0.01" rotation="0 220 0"></a-entity>
 <a-entity gltf-model="#pc" position="1.51262 0.70347 0.84688" scale="0.012 0.012 0.012" rotation="0 90 0"></a-entity>
-<a-entity gltf-model="#chair" position="1 1.255 -0.92163" scale="3 3 3" rotation="0 -135 0"></a-entity>
-<a-entity gltf-model="#chair" position="-0.9 1.255 0.92163" scale="3 3 3" rotation="0 -135 0"></a-entity>
-<a-entity gltf-model="#rat" position="0 0 -0.3" scale="0.25 0.25 0.25" rotation="0 45 0"></a-entity>
-<a-entity gltf-model="#rat" position="-0.8 0 0" scale="0.25 0.25 0.25" rotation="0 180 0"></a-entity>
-<a-entity gltf-model="#rat" position="0.11454 0 1.45885" scale="0.25 0.25 0.25" rotation="12.339 113.647 9.589"></a-entity>
+<a-entity gltf-model="#chair" position="0.40579 1.21447 0.92163" scale="3 3 3" rotation="0 29.999999999999996 0"></a-entity>
 <a-entity gltf-model="#things" position="0.22039 0 1.75898" scale="0.02 0.02 0.02" rotation="0 -152.1168 0"></a-entity>
 <a-entity gltf-model="#things" position="1.7 0 -0.9" scale="0.01 0.01 0.01" rotation="0 -50 0"></a-entity>
 <a-entity gltf-model="#desk" position="1.38252 0.31593 0.93211" scale="0.9 0.9 0.9" rotation="0 -100 0"></a-entity>
-<a-entity gltf-model="#cabinet" position="-1.48857 0 1.10014" scale="0.01 0.01 0.01" rotation="0 112 0"></a-entity>
-<a-entity gltf-model="#wires" position="0.3861 2.19802 -1.19271" scale="0.03 0.03 0.03" rotation="0 152.22571884153763 0"></a-entity>
-<a-entity gltf-model="#wires" position="-0.62474 2.0383 0.61294" scale="0.03 0.03 0.03" rotation="0 -15.6216 0"></a-entity>
+<a-entity gltf-model="#cabinet" position="-1.71552 0 1.05885" scale="0.009 0.009 0.009" rotation="0 89.30693152704141 0"></a-entity>
+<a-entity gltf-model="#wires" position="0.3861 2.39802 -1.19271" scale="0.03 0.03 0.03" rotation="0 152.22571884153763 0"></a-entity>
+<a-entity gltf-model="#wires" position="-0.62474 2.3383 0.61294" scale="0.03 0.03 0.03" rotation="0 -15.6216 0"></a-entity>
+<a-entity gltf-model="#toilet" position="1.54555 0.00419 -1.4774" scale="0.12 0.12 0.12"></a-entity>
+<a-entity gltf-model="./assets/3Dmodels/lab/stretcher.glb" position="0.83154 0 -0.81126" scale="0.01 0.01 0.01" rotation="0 158.230 0"></a-entity>
+<a-entity gltf-model="./assets/3Dmodels/lab/hospital_hanging_signage.glb" position="-0.4734 2.42276 -1.4774" scale="0.006 0.006 0.006" rotation="4.86 90 0"></a-entity>
+<a-entity gltf-model="./assets/3Dmodels/lab/hospital_curtain.glb" position="-0.92298 0 1.77695" scale="0.5 0.5 0.5" rotation="0 -88.80731232968733 0"></a-entity>
+<a-entity gltf-model="./assets/3Dmodels/lab/hospital_trolley.glb" position="-1.51446 0.00419 -0.06581" rotation="0 113.13796509991775 0"></a-entity>
+<a-entity gltf-model="#pipes" position="0.69196 0.49862 -1.79994" scale="0.5 0.5 0.5"></a-entity>
+<a-entity gltf-model="#pipes" position="-1.51245 1.52459 -1.79994" scale="0.5 0.5 0.5" rotation="0 0 -90"></a-entity>
+<a-entity gltf-model="#pipes" position="1.44041 2.32059 1.76405" scale="0.5 0.5 0.5" rotation="0 180 180"></a-entity>
+<a-entity gltf-model="#screens" position="-1.713 1.5713 0.078" scale="0.18 0.18 0.2" rotation="0 -90.000971 4.72803"></a-entity>
+
+
 
   <a-plane material="src:#tiles; repeat: 2 2" rotation="-90 0 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="0 2 -2" rotation="0 0 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="0 2 2" rotation="0 180 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="-2 2 0" rotation="0 90 0" width="4" height="4" color="silver"></a-plane>
   <a-plane src='#wall' position="2 2 0" rotation="0 -90 0" width="4" height="4" color="silver"></a-plane>
-  <a-plane material="src:#ceiling; repeat: 4 4" position="0 2.8 0" rotation="90 0 0" width="4" height="4" color="silver"></a-plane>
+  <a-plane material="src:#ceiling; repeat: 4 4" position="0 3 0" rotation="90 0 0" width="4" height="4" color="silver"></a-plane>
+  <a-entity light="decay: 2; distance: 50; intensity: 0.98; type: point" position="0 2.86 -0.24"></a-entity>
 
   <camera position="0 1.6 0">
     <a-entity cursor="fuse: true; fuseTimeout: 500"
@@ -49,6 +59,8 @@
               geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
               material="color: black; shader: flat">
     </a-entity>
+
+    
 </a-scene>
   </body>
 </html>
